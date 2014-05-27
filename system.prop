@@ -1,0 +1,25 @@
+#
+# system.prop for rhea
+#
+
+rild.libpath=/system/lib/libbrcm_ril.so
+## BT PORT
+#rild.libargs=-d /dev/ttyS0
+ro.sf.lcd_density=120
+ro.lcd_brightness=160
+
+# MultiTouch support
+ro.product.multi_touch_enabled=true
+ro.product.max_num_touch=2
+
+net.streaming.rtsp.uaprof=http://wap.samsungmobile.com/uaprof/
+
+# Multimedia property for Smart View
+media.enable-commonsource=true
+
+ro.opengles.version=131072
+debug.hwui.render_dirty_regions=false
+
+ro.ril.hsxpa=1
+ro.ril.gprsclass=10
+ro.com.google.gmsversion=4.1_r6
